@@ -3,10 +3,10 @@
 A container based installation of GeoServer including a PostGIS database
 
 
-##User Story
+## User Story
 As a PO I want to have a fast geo service (WMS) providing the OSM map in order to use OSM map data to other services like Quality Heatmap, Tracking & Tracing, Manual Toll booking, and similar systems that need a map visualization. 
 
-##First solution
+## First solution
 First of all the decision on which server to use had to be made. After some research we decided to setup a server based on the open-source software GeoServer (http://geoserver.org/). 
 
 The main reason for choosing GeoServer where:
@@ -40,7 +40,7 @@ The solution worked fine, but then there was the requirement to show also German
 
 Thus we went on the way for either a good and fast pre-rendering software or maybe change to online rendering!
 
-#Second approach
+# Second approach
 As the amount of data to be pre-rendering had grown massivly, we thought about switching to online rendering, but we had two main obstacles:
 
 Speed: the rendering speed had to be improved in order to have acceptable user experience on a decent machine
