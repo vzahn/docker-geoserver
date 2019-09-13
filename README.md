@@ -28,7 +28,6 @@ Both ways have their advantages ... and disadvantages:
 | ------------------ | ---------- | ------------- |
 | Pre-rendered tiles | Fast access for the user | Huge amount of data has to be processed and stored |
 | | | Tiles have to be re-rendered with every update |
-    
 | Online Rendering   | Slow access	 | Minimal amount of data to be stored |
 | | | Always up-to-date |
 
