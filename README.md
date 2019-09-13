@@ -63,13 +63,13 @@ To be continued ...
 
 
 
-#Software links:
+# Software links:
 
-Styles and import configuration: https://github.com/geosolutions-it/osm-styles
-Import Tool at GitHub: https://github.com/omniscale/imposm3
-Import tool documentation: https://imposm.org/docs/imposm3/latest/tutorial.html
-GeoServer docker container: https://github.com/GeoNode/geoserver-docker
-PostGIS docker container: https://hub.docker.com/r/mdillon/postgis
-CartoCSS and Kosmtik tile server: https://github.com/vzahn/openstreetmap-carto/blob/master/DOCKER.md
-OSM Maps download: https://download.geofabrik.de/europe.html
-...
+* Styles and import configuration: https://github.com/geosolutions-it/osm-styles
+* Import Tool at GitHub: https://github.com/omniscale/imposm3
+* Import tool documentation: https://imposm.org/docs/imposm3/latest/tutorial.html
+* GeoServer docker container: https://github.com/GeoNode/geoserver-docker
+* PostGIS docker container: https://hub.docker.com/r/mdillon/postgis
+* CartoCSS and Kosmtik tile server: https://github.com/vzahn/openstreetmap-carto/blob/master/DOCKER.md
+* OSM Maps download: https://download.geofabrik.de/europe.html
+* ...
