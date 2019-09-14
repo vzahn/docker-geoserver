@@ -1,0 +1,56 @@
+version: '2'
+services:
+  geoserver:
+    image: osm-geoserver:v1
+    build:
+      context: ./osm-geoserver
+      dockerfile: Dockerfile
+      args:
+        - http_proxy
+        - https_proxy
+    volumes:
+      - ./geoserver_data_dir:/usr/share/geoserver/data_dir
+    links:
+      -  db:pg_server
+    depends_on:
+      - db
+    ports:
+      - "6888:8080"
+    environment:
+      - http_proxy
+      - https_proxy
+
+  db:
+    image: osm-postgis:v1
+    build:
+      context: ./osm-postgis
+      dockerfile: Dockerfile
+      args:
+        - http_proxy
+        - https_proxy
+    ports:
+      - "5432:5432"
+    volumes:
+      - /export2/postgis:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - http_proxy
+      - https_proxy
+  
+  import:
+    image: osm-import:v1
+    build:
+      context: ./osm-import
+      dockerfile: Dockerfile
+      args:
+      - http_proxy
+      - https_proxy
+    volumes:
+      - ./maps:/opt/maps
+    links:
+      -  db:pg_server
+    depends_on:
+      - db
+    environment:
+      - http_proxy
+      - https_proxy
