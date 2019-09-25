@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tiled WMS</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+    <!-- The line below is only needed for old environments like Internet Explorer and Android 4.x -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+    <script src="https://cdn.rawgit.com/openlayers/openlayers.github.io/master/en/v5.3.0/build/ol.js"></script>
+
+  </head>
+  <body>
+    <h1>Map on server osm_server</h1>
+    <div id="map" class="map"></div>
+    <script>
+
+	var OSM_Layer = new ol.layer.Tile({
+        title : 'OSM Direct',
+        type : 'base',
+        visible : true,
+        source : new ol.source.OSM()
+	});
+	
+	var OSM_Local_Layer = new ol.layer.Tile({
+        title : 'OSM Local',
+        opacity : 1.0,
+        source : new ol.source.TileWMS({
+                url : 'http://10.33.145.38:6888/geoserver/wms',
+                params : {LAYERS : 't-systems:osm', 'TILED': true},
+		serverType: 'geoserver'
+        })
+	});
+
+
+      var map = new ol.Map({
+        layers: [OSM_Local_Layer],
+        target: 'map',
+        view: new ol.View({
+          center: ol.proj.fromLonLat([9.00, 53.00]),
+          zoom: 10
+        })
+      });
+    </script>
+  </body>
+</html>

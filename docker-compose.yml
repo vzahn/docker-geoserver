@@ -1,5 +1,27 @@
 version: '2'
 services:
+  viewer:
+    image: osm-viewer:v1
+    build:
+      context: ./osm-viewer
+      dockerfile: Dockerfile
+      args:
+        - http_proxy
+        - https_proxy
+    volumes:
+      - ./public_html:/usr/local/apache2/htdocs
+    links:
+      - db:pg_server
+      - geoserver:geo_server
+    depends_on:
+      - db
+      - geoserver
+    ports:
+      - "6889:80"
+#    environment:
+#      - http_proxy
+#      - https_proxy
+
   geoserver:
     image: osm-geoserver:v1
     build:
