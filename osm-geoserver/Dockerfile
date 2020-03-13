@@ -25,5 +25,5 @@ RUN unzip geoserver-$GEOSERVER_VERSION-css-plugin.zip -d $GEOSERVER_HOME/webapps
 RUN rm geoserver-$GEOSERVER_VERSION-css-plugin.zip
 
 WORKDIR /
-ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-0.el7_6.x86_64/jre
+ENV JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.222.b10-1.el7_7.x86_64/jre/
 CMD ["/usr/share/geoserver/bin/startup.sh"]
