@@ -18,9 +18,9 @@ services:
       - geoserver
     ports:
       - "6889:80"
-#    environment:
-#      - http_proxy
-#      - https_proxy
+    environment:
+      - http_proxy
+      - https_proxy
 
   geoserver:
     image: osm-geoserver:v1
