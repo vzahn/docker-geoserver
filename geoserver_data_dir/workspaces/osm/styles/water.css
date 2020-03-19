@@ -1,0 +1,7 @@
+/* @title Water areas for resolution less than 12.5M */
+* {[@sd < 12.5M] {
+    stroke: #aad3df;
+    stroke-width: 0.5;
+    fill: #aad3df;
+  }
+}

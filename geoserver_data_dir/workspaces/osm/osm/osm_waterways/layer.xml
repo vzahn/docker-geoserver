@@ -1,0 +1,20 @@
+<layer>
+  <name>osm_waterways</name>
+  <id>LayerInfoImpl--16f43946:16d06a0fbf3:6b03</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl--6528c95c:16d00443e91:-2ad8</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--16f43946:16d06a0fbf3:6b02</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

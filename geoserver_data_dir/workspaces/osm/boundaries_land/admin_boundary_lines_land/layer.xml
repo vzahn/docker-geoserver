@@ -1,0 +1,15 @@
+<layer>
+  <name>admin_boundary_lines_land</name>
+  <id>LayerInfoImpl--720e3d19:170d4d459b4:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--720e3d19:170d4d459b4:-7ffa</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--720e3d19:170d4d459b4:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

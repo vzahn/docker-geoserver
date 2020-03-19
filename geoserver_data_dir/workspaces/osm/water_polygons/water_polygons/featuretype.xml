@@ -1,0 +1,65 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--16f43946:16d0a3967bf:-65bc</id>
+  <name>water_polygons</name>
+  <nativeName>water_polygons</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-6e16f049:16cff516a76:-7ffe</id>
+  </namespace>
+  <title>water_polygons</title>
+  <keywords>
+    <string>features</string>
+    <string>water_polygons</string>
+  </keywords>
+  <nativeCRS class="projected">PROJCS[&quot;WGS 84 / Pseudo-Mercator&quot;, 
+  GEOGCS[&quot;WGS 84&quot;, 
+    DATUM[&quot;World Geodetic System 1984&quot;, 
+      SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+      AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+    PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+    UNIT[&quot;degree&quot;, 0.017453292519943295], 
+    AXIS[&quot;Geodetic longitude&quot;, EAST], 
+    AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], 
+  PROJECTION[&quot;Popular Visualisation Pseudo Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;1024&quot;]], 
+  PARAMETER[&quot;semi_minor&quot;, 6378137.0], 
+  PARAMETER[&quot;latitude_of_origin&quot;, 0.0], 
+  PARAMETER[&quot;central_meridian&quot;, 0.0], 
+  PARAMETER[&quot;scale_factor&quot;, 1.0], 
+  PARAMETER[&quot;false_easting&quot;, 0.0], 
+  PARAMETER[&quot;false_northing&quot;, 0.0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;Easting&quot;, EAST], 
+  AXIS[&quot;Northing&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;3857&quot;]]</nativeCRS>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>-2.003750834E7</minx>
+    <maxx>2.003750834E7</maxx>
+    <miny>-1.477340741929449E7</miny>
+    <maxy>2.003750834E7</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-179.99999997494382</minx>
+    <maxx>179.99999997494382</maxx>
+    <miny>-78.73290130000002</miny>
+    <maxy>85.05112877764508</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--16f43946:16d0a3967bf:-65be</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

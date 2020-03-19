@@ -1,0 +1,20 @@
+<layer>
+  <name>osm_landusages</name>
+  <id>LayerInfoImpl-6e16f049:16cff516a76:-7ff4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6e16f049:16cff516a76:-7ff7</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-6e16f049:16cff516a76:-7ff7</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6e16f049:16cff516a76:-7ff5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

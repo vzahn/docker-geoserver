@@ -1,0 +1,22 @@
+<dataStore>
+  <id>DataStoreInfoImpl--16f43946:16d0a3967bf:-65c2</id>
+  <name>simplified_water_polygons</name>
+  <type>Shapefile</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-6e16f049:16cff516a76:-7fff</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="charset">ISO-8859-1</entry>
+    <entry key="filetype">shapefile</entry>
+    <entry key="create spatial index">true</entry>
+    <entry key="memory mapped buffer">false</entry>
+    <entry key="timezone">UTC</entry>
+    <entry key="enable spatial index">true</entry>
+    <entry key="namespace">https://www.openstreetmap.org</entry>
+    <entry key="cache and reuse memory maps">true</entry>
+    <entry key="url">file:data/earth-data/simplified-water-polygons-split-3857/simplified_water_polygons.shp</entry>
+    <entry key="fstype">shape</entry>
+  </connectionParameters>
+  <__default>false</__default>
+</dataStore>

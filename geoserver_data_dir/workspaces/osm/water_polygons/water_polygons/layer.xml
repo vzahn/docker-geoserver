@@ -1,0 +1,15 @@
+<layer>
+  <name>water_polygons</name>
+  <id>LayerInfoImpl--16f43946:16d0a3967bf:-65bb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--16f43946:16d0a3967bf:-2283</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--16f43946:16d0a3967bf:-65bc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,15 @@
+<layer>
+  <name>waterways</name>
+  <id>LayerInfoImpl--6528c95c:16d00443e91:-2ad1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6528c95c:16d00443e91:-2ad8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6528c95c:16d00443e91:-2ad2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

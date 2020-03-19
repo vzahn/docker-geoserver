@@ -1,0 +1,38 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--16f43946:16d0a3967bf:-65b2</id>
+  <name>earth</name>
+  <mode>SINGLE</mode>
+  <title>Earth Layer</title>
+  <workspace>
+    <id>WorkspaceInfoImpl-6e16f049:16cff516a76:-7fff</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl--16f43946:16d0a3967bf:-65bf</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--16f43946:16d0a3967bf:-65bb</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--720e3d19:170d4d459b4:-7ffc</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--16f43946:16d0a3967bf:-2286</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--16f43946:16d0a3967bf:-2283</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--720e3d19:170d4d459b4:-7ffa</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>-2.003750834E7</minx>
+    <maxx>2.003750834E7</maxx>
+    <miny>-1.477340741929449E7</miny>
+    <maxy>2.003750834E7</maxy>
+    <crs class="projected">EPSG:3857</crs>
+  </bounds>
+</layerGroup>
