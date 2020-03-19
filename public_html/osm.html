@@ -9,11 +9,10 @@
 
   </head>
   <body>
-    <h1>Map on server osm_server</h1>
+    <h1>OSM Map on GeoServer based in AWS Cloud</h1>
     <div id="map" class="map"></div>
     <script>
-
-	var OSM_Layer = new ol.layer.Tile({
+        var OSM_Layer = new ol.layer.Tile({
         title : 'OSM Direct',
         type : 'base',
         visible : true,
@@ -24,8 +23,8 @@
         title : 'OSM Local',
         opacity : 1.0,
         source : new ol.source.TileWMS({
-                url : 'http://10.33.145.38:6888/geoserver/wms',
-                params : {LAYERS : 't-systems:osm', 'TILED': true},
+                url : 'http://' + location.hostname + ':6888/geoserver/wms',
+                params : {LAYERS : 'osm:map', 'TILED': true},
 		serverType: 'geoserver'
         })
 	});
